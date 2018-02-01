@@ -15,7 +15,7 @@ Usage
 Wrap grpc server and start server:
 ```go
 s := grpc.NewServer()
-pb.RegisterDeployServer(s, &server)
+pb.RegisterDeployServer(s, &server{})
 reflection.Register(s)
 gr, err := gracegrpc.New(s, "tcp", addr, pidPath, nil)
 if err != nil {
@@ -25,6 +25,16 @@ if err := gr.Serve(); err != nil {
 	log.Fatalf("failed to serve: %v", err)
 }
 
+```
+
+Custom logger
+```go
+
+import log "github.com/sirupsen/logrus"
+
+...
+gr, err := gracegrpc.New(s, "tcp", addr, pidPath, log.StandardLogger())
+...
 ```
 
 In a terminal trigger a graceful server restart (using the pid from your output):
