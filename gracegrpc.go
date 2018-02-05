@@ -1,3 +1,13 @@
+/*
+ *
+ * Created by 0x5010 on 2018/02/01.
+ * gracegrpc
+ * https://github.com/0x5010/gracegrpc
+ *
+ * Copyright 2018 0x5010.
+ * Licensed under the MIT license.
+ *
+ */
 package gracegrpc
 
 import (

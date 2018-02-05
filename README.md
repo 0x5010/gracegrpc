@@ -29,7 +29,6 @@ if err := gr.Serve(); err != nil {
 
 Custom logger
 ```go
-
 import log "github.com/sirupsen/logrus"
 
 ...
