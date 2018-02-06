@@ -41,4 +41,9 @@ In a terminal trigger a graceful server restart (using the pid from your output)
 kill -USR2 pid
 ```
 
+Run with supervisor
+```conf
+command = /path/to/pidproxy.py /path/to/pidPath /path/to/server
 
+kill -USR2 {pidproxy.py pid}
+```
