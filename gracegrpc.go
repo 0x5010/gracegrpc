@@ -1,3 +1,5 @@
+package gracegrpc
+
 /*
  *
  * Created by 0x5010 on 2018/02/01.
@@ -8,7 +10,6 @@
  * Licensed under the MIT license.
  *
  */
-package gracegrpc
 
 import (
 	"fmt"

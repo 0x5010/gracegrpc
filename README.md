@@ -3,6 +3,7 @@ gracegrpc is used to wrap a grpc server that can be gracefully terminated & rest
 [![LICENSE](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 [![Build Status](https://travis-ci.org/0x5010/gracegrpc.png?branch=master)](https://travis-ci.org/0x5010/gracegrpc)
 [![Go Report Card](https://goreportcard.com/badge/github.com/0x5010/gracegrpc)](https://goreportcard.com/report/github.com/0x5010/gracegrpc)
+[![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/0x5010/gracegrpc)
 
 Installation
 -----------
